@@ -1,0 +1,14 @@
+{
+  "name": "warshall",
+  "version": "1.0.0",
+  "description": "Implementation of the Floyd-Warshall algorithm for cycle detection in a DAG",
+  "main": "index.js",
+  "repository": "https://github.com/jdmedlock/warshall.git",
+  "author": "jdmedlock <jdmedlock@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "jshint": "^2.9.4"
+  }
+}
