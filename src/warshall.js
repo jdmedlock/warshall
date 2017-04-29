@@ -34,11 +34,10 @@ module.exports = class Warshall {
       throw `addDependency: Invalid parameter. nodeNo (${nodeNo}) or waitsOnNodeNo (${waitsOnNodeNo}) exceed the max. bounds of the dependency array (${this.noNodes}`;
     }
     this.dependencies[nodeNo][waitsOnNodeNo] = 1;
-    //this.dependencies[waitsOnNodeNo][nodeNo] = 1;
   }
 
   /**
-   * Clear the dependency array
+   * Clear the dependency array.
    */
   clearDependencyArray() {
     for (let i = 0; i < this.noOfNodes; i++) {
